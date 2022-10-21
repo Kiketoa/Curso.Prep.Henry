@@ -1,0 +1,73 @@
+ #page {
+  display: grid;
+  width: 100%;
+  height: 750px;
+  grid-template-areas:
+    "head head"
+    "nav  main"
+    "nav  foot";
+  grid-template-rows: 50px 1fr 90px;
+  grid-template-columns: 400px 1fr;
+}
+
+#page > header {
+  grid-area: head;
+  text-align: center;
+  font-size: 36px;
+  background-color: #f96;
+}
+
+#page > nav {
+  grid-area: nav;
+  background-color: #888;
+}
+#page > nav > h1 {
+  color: white;
+  text-align: center;
+  font-size: 26px;
+  font-style: oblique;
+}
+#p1{
+  color: white;
+  text-align: center; 
+  line-height : 1px;
+  font-style: oblique;
+}
+img{
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+#st1{
+  color: white;
+  background-color: #000;
+  text-align: center; 
+  line-height : 15px;
+  font-style:normal;
+}
+#datcont{
+  color: white;
+  text-align: left; 
+  line-height : 1px;
+  font-style: oblique;
+}
+#hab{
+  color: white;
+  text-align: left; 
+  font-style: oblique;
+} 
+#page > main {
+  grid-area: main;
+  background-color: #96f;
+}
+#p2{
+  color: gold;
+  text-align: left; 
+  font-size: 30px;
+  font-style: oblique;
+}
+#page > footer {
+  grid-area: foot;
+  background-color: #8cffa0;
+}

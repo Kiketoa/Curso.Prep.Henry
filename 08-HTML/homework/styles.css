@@ -1,0 +1,26 @@
+ /* ctrlF encontrar y ctrlH reemplazar*/
+h1{
+	color: dodgerblue;
+}
+h3{
+	color: #4DACFF;
+}
+h4{
+	color: #80C4FF;
+}
+#spanId{
+    font-size: 18px;
+	margin: 50px;
+}
+#thirdDiv{
+    width: 500px; 
+	height: 600px; 
+	background-color:paleturquoise; 
+	padding: 50px; 
+	border-width: 5px; 
+	border-style: solid; 
+	border-color: yellow;
+}
+img{
+    width: 400px;
+}
